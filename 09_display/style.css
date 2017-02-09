@@ -1,0 +1,24 @@
+/*@formateur PARTIE 1*/
+h1, h3, h5, div, a, p, span, aside, section{
+    text-align: center;
+}
+/*@formateur FIN PARTIE 1*/
+
+/*@formateur PARTIE 2 CSS on ajoute des bordures*/
+h1, h3, h5, div, a, p, span, aside, section{
+    text-align: center;
+    border: 1px solid; /*si on ne précise pas de couleur la bordure sera noire parr défaut*/
+}
+/*@formateur FIN PARTIE 2 CSS */
+
+/*@formateur PARTIE 3 CSS on change les propriétés INLINE du A et du SPAN*/
+a, span{
+    display: block;
+}
+/*@formateur FIN PARTIE 3 CSS */
+
+/*@formateur PARTIE 4 CSS change les propriétés BLOCK de H1 et DIV*/
+h1, div{
+    display: inline;
+}
+/*@formateur FIN PARTIE 4 CSS */
