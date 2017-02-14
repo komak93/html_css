@@ -28,5 +28,5 @@ nav ul{
         display: block;
     }
     nav li:hover, nav li.menu-2:hover{
-            background: #fda500;
+            background: linear-gradient(black,white);
     }

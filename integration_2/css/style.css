@@ -1,0 +1,34 @@
+body{
+    font-family: 'Amaranth', sans-serif;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    background: #DDEEAA;
+}
+
+div#conteneur{
+    width: 770px;/*largeur*/
+    margin: 0 auto;/*marge automatique qui centre le bloc après l'avoir remonté le plus haut possible dans mon affichage*/
+    text-align: left;/*centre le contenu de lin #conteneur*/
+    border: 2px solid #AABB44;/*bordure autour de toute la page*/
+    background: #fff ;/*couleur de fond de mon#conteneur*/
+}
+
+h1#header{
+    height: 258px;/*personnaler la hauteur de mon titre*/
+    background-image: url(../img/apple.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+div#contenu{
+    padding: 0 30px 0 100px;
+    background-image: url(../img/bg_page.gif);
+    background-repeat: no-repeat;
+}
+
+nav ul li{
+    display: inline-block;
+    border-bottom: 0.1em solid #AABB44;
+    text-align: center;
+}
