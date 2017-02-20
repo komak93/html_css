@@ -1,0 +1,41 @@
+body{
+    font-family: 'Lobster', cursive;
+    background: linear-gradient(#CCFFFF, #00FFFF);
+    text-align: center;
+}
+header h2{
+    text-align: center;
+}
+header{
+    text-align: center;
+    background: linear-gradient(#00FFFF  ,#CCFFFF);
+}
+header img{
+    width: 20%;
+}
+header ul li{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid;
+    margin: 2em;
+}
+caption{
+    text-align: center;
+}
+table{
+    border: 3px solid;
+    margin: 2em;
+    float: left;
+    background: linear-gradient(grey,white);
+}
+th, td{
+    text-align: left;
+}
+th{
+    border-bottom: 1px solid;
+}
+
+.right{
+    text-align: right;
+    padding: 0.3em;
+}
