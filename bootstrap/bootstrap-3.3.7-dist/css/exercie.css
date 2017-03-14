@@ -1,0 +1,54 @@
+.container{
+    border: 1px solid;
+}
+
+.couleurRouge{
+    background: black;
+    border: 3px solid red;
+    padding: 10px;
+}
+.couleurBleu{
+    background: lightblue;
+    border: 3px solid blue;
+    padding: 10px;
+}
+.couleurVert{
+    background:lightgreen;
+    border: 3px solid green;
+    padding: 10px;
+}
+.couleurJaune{
+    background: gold;
+    border: 3px solid yellow;
+    padding: 10px;
+}
+.couleurOrange{
+    background: gray;
+    border: 3px solid orange;
+    padding: 10px;
+}
+.couleurViolet{
+    background: #bf3;
+    border: 3px solid violet;
+    padding: 10px;
+}
+.couleurRose{
+    background: pink;
+    border: 3px solid blue;
+    padding: 10px;
+}
+.couleurGris{
+    background: red;
+    border: 3px solid grey;
+    padding: 10px;
+}
+.couleurCyan{
+    background:cyan;
+    border: 3px solid magenta;
+    padding: 10px;
+}
+.couleurMarron{
+    background: chocolate;
+    border: 3px solid brown;
+    padding: 10px;
+}

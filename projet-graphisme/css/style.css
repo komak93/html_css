@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+header{
+    height: 200px;
+    width: 100%;
+    /*background: red;*/
+}
+.htop{
+    background: black;
+    padding: 0 80px;
+    }
+    .htop span{
+        font-size: 12px;
+    }
+    .htop a:nth-child(2){
+    margin: 0 520px;
+    }
+
+.hleft{
+    width: 1100px;
+    float: left;
+    }
+    .hleft h2{
+        font-family: 'Russo One', sans-serif;
+        margin: 30px 0 0 100px;
+        font-size: 70px;
+    }
+    .hleft a{
+        color: black;
+    }
+    .hleft a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .hleft mark{
+        padding: 0 10px;
+        background: #F62775;
+        color: white;
+    }
+
+    .hleft p{
+        margin: 5px 100px;
+        font-size: 17px;
+    }
+    .hright{
+        margin: 20px 10px 0 10px;
+        float: left;
+        text-align: right;
+    }
+    .hrleft{
+        float: left;
+        margin: 10px 50px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .hrright{
+        float: left;
+        margin: 10px 50px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .hrright img{
+        float: right;
+    }
+    .hrleft img{
+        float: left;
+    }
+    .hright span{
+        font-size: 11px;
+    }
+    .hright p{
+        color: black;
+        float: left;
+        padding: 0;
+        margin: 0.5px;
+    }
+    .hrright span{
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .hrtxt{
+        float: left;
+    }
+    .hrimg{
+        float: left;
+    }
+
+nav{
+    /*background: yellow;*/
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    }
+    nav a{
+        text-shadow: 3px 3px 3px black;
+        padding: 7px 50px;
+        /*margin: 60px;*/
+        color: black;
+        transition: 0.5s;
+    }
+    nav a:first-child{
+        padding: 7px 70 7px 90px;
+    }
+    nav a:hover{
+        color: white;
+        text-shadow: 3px 3px 3px black;
+        text-decoration: none;
+        background: linear-gradient(grey, white);
+    }
+
+.champ{
+    width:180px;
+    height:25px;
+}
+.bouton{
+    background-image: url(../img/loupe.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
+section{
+    /*background: blue;*/
+    width: 1400px;
+    min-height: 800px;
+    margin: 30px auto;
+}
+.carousel{
+    float: left;
+}
+.lilimg{
+    margin: 0 100px;
+    float: left;
+}
+.lilimg img{
+    width: 330px;
+    height: 145px;
+}
+
+.fondRose{
+    text-align: center;
+    background: #F62775;
+    height: 30px;
+    margin: 0 0 24px 0;
+}
+
+.fondRose a{
+    line-height: 25px;
+    color: white;
+}
+.fondRose a:hover{
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.fpaie img{
+    margin:35px 0px 0 90px;
+}
+
+.clear{
+    clear: both;
+}

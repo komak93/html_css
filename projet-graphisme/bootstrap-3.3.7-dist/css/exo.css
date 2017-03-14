@@ -1,0 +1,26 @@
+.container{
+    border: 2px solid;
+}
+
+header, section, footer{
+    padding: 10px 10px;
+}
+
+.couleurRouge{
+    border: 3px solid red;
+    min-height: 100px;
+    padding: 10px;
+}
+.couleurOrange{
+    border: 3px solid orange;
+    padding: 10px;
+}
+.couleurBleu{
+    border: 3px solid blue;
+    min-height: 450px;
+    padding: 10px;
+}
+.couleurVert{
+    border: 3px solid green;
+    padding: 10px;
+}
